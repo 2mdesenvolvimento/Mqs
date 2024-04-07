@@ -1,4 +1,5 @@
 ﻿using MQS.Domain.Entity.Validators;
+using System;
 using System.Collections.Generic;
 
 namespace MQS.Domain.Entity
