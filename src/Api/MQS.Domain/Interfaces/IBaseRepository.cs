@@ -9,8 +9,7 @@ namespace MQS.Domain.Interfaces
         Task<T> Create(T obj);
         Task<T> Update(T obj);  
         Task Remove(long id);
-        Task<T> Delete(long id);
         Task<T> Get(long id);
-        Task<List<T>> GetAll();
+        Task<List<T>> Get();
     }
 }
